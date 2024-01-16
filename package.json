@@ -1,0 +1,27 @@
+{
+	"name": "my-libraries",
+	"version": "0.1.0",
+	"description": "My libraries created by Abolade Greatness",
+	"main": "dist/*.js",
+	"types": "dist/*.d.ts",
+	"scripts": {
+		"start": "tsc",
+		"build": "tsc build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thegrtnx/my-libraries.git"
+	},
+	"keywords": [
+		"Abolade Greatness"
+	],
+	"author": "thegrtnx",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/thegrtnx/my-libraries/issues"
+	},
+	"homepage": "https://github.com/thegrtnx/my-libraries",
+	"peerDependencies": {
+		"typescript": "^5.3.3"
+	}
+}
